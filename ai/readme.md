@@ -32,6 +32,6 @@ For this input.txt:
 01
 21
 one possible correct output.txt is:
-B1__
+B1_
 0* 
 2*
