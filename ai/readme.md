@@ -1,6 +1,5 @@
 You will be provided sample inputs and outputs (see below). Please understand that the goal of the samples is to check that you can correctly parse the problem definitions, and generate a correctly formatted output. The samples are very simple and it should not be assumed that if your program works on the samples it will work on all test cases. There will be more complex test cases and it is your task to make sure that your program will work correctly on any valid input. 
-.
-.
+__
 
 Rules of the game
 The Fruit Rage is a two player game in which each player tries to maximize his/her share from a batch of fruits randomly placed in a box. The box is divided into cells and each cell is either empty or filled with one fruit of a specific type.
@@ -33,6 +32,6 @@ For this input.txt:
 01
 21
 one possible correct output.txt is:
-B1 
+B1__
 0* 
 2*
