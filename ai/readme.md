@@ -1,5 +1,5 @@
 You will be provided sample inputs and outputs (see below). Please understand that the goal of the samples is to check that you can correctly parse the problem definitions, and generate a correctly formatted output. The samples are very simple and it should not be assumed that if your program works on the samples it will work on all test cases. There will be more complex test cases and it is your task to make sure that your program will work correctly on any valid input. 
-__
+<br />
 
 Rules of the game
 The Fruit Rage is a two player game in which each player tries to maximize his/her share from a batch of fruits randomly placed in a box. The box is divided into cells and each cell is either empty or filled with one fruit of a specific type.
@@ -7,7 +7,8 @@ At the beginning of each game, all cells are filled with fruits. Players play in
 Another big constraint of this game is that every agent has a limited amount of time to spend for thinking during the whole game. Spending more than the original allocated time will be penalized harshly. Each player is allocated a fixed total amount of time. When it is your turn to play, you will also be told how much remaining time you have. The time you take on each move will be subtracted from your total remaining time. If your remaining time reaches zero, your agent will automatically lose the game. Hence you should think about strategies for best use of your time (spend a lot of time on early moves, or on later moves?)
 The overall score of each player is the sum of rewards gained for every turn. The game will terminate when there is no fruit left in the box or when a player has run out of time.
 Game setup and examples
-
+<br />
+<br />
 
 Input: The file input.txt in the current directory of your program will be formatted as follows:
 First line: Second line: Third line: Next n lines:
@@ -21,17 +22,16 @@ Next n lines:
 your selected move, represented as two characters:
 A letter from A to Z representing the column number (where A is the leftmost column, B is the next one to the right, etc), and
 A number from 1 to 26 representing the row number (where 1 is the top row, 2 is the row below it, etc).
-the n x n board just after your move and after gravity has been applied to make any fruits fall into holes created by your move taking away some fruits (like in figure 3).
+the n x n board just after your move and after gravity has been applied to make any fruits fall into holes created by your move taking away some fruits.
 
 
-.
-.
-For this input.txt:
-2
-3 123.6 
-01
-21
-one possible correct output.txt is:
+<br />
+For this input.txt:<br />
+2<br />
+3 123.6<br /> 
+01<br />
+21<br />
+one possible correct output.txt is:<br />
 B1<br />
-0* 
-2*
+0*<br />
+2*<br />
